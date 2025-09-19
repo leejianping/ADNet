@@ -67,41 +67,7 @@ torchrun --nproc_per_node=6 --nnodes=1 --node_rank=0 --master_port=4321 basicsr/
 
 ## 3 Evaluation
 
-#### 3.1 Download the trained on GoPro only EG-Restormer model
-
-Download the pre-trained EG-Restormer [gopro_pretrain_model](https://drive.google.com/file/d/15fHBJy2MgMy2pcCKGYCzXpCHO_3Ja-O7/view?usp=sharing) and place it in `./experiment/egrestormer/models/`
-
-#### 3.2 Download the trained on GoPro + QRData EG-Restormer model
-
-Download the pre-trained EG-Restormer [QRData_model](https://drive.google.com/file/d/12NCPyL2lvga3z85WRjc-LzZb18qcUbgY/view?usp=sharing) and place it in `./experiment/egrestormer/models/`
-
-#### 3.3 Download the LENet model
-
-Download the pre-trained EG-Restormer [QRData_model](https://drive.google.com/file/d/1foqYyFqTLhOL10Dt3u8b9XDhaPdaxcEr/view?usp=sharing) and place it in `./experiment/LENet/models/`
-
-
-#### 3.4 Testing on QR code dataset
-
-- Download QR code test set [QR code](https://drive.google.com/file/d/1B49u5Rf0RgGbsyaHMYEZXBBG_NC1h14M/view?usp=sharing) and place it in `./datasets/test/`
-
-
-- Testing **EG-Restormer**, run,
-
-```
-python test_egrestormer.py
-```
-
-- Testing **LENet**, run,
-
-```
-python test_lenet.py
-```
-
-- Testing **ADNet**, run,
-
-```
-python ADNet.py
-```
+coming soon
 
 ## Contact
 If you have any question, please contact ljphit@163.com
