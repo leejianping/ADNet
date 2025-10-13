@@ -1,0 +1,18 @@
+@echo off
+:: Testing script for all QR code restoration models
+
+:: Restormer
+set OPT=options/test/test_restormer.yml
+python basicsr/test.py
+
+:: Restormer+PatchGAN
+set OPT=options/test/test_restormer_gan.yml
+python basicsr/test.py
+
+:: QRRestormer
+set OPT=options/test/test_qrrestormer.yml
+python basicsr/test.py
+
+:: QRRestormer+PatchGAN
+set OPT=options/test/test_qrrestormer_gan.yml
+python basicsr/test.py

@@ -1,0 +1,18 @@
+@echo off
+:: Training script for all QR code restoration models
+
+:: Restormer
+set OPT=options/train/train_restormer.yml
+python basicsr/train.py
+
+:: Restormer+PatchGAN
+set OPT=options/train/train_restormer_gan.yml
+python basicsr/train.py
+
+:: QRRestormer
+set OPT=options/train/train_qrrestormer.yml
+python basicsr/train.py
+
+:: QRRestormer+PatchGAN
+set OPT=options/train/train_qrrestormer_gan.yml
+python basicsr/train.py

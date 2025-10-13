@@ -1,0 +1,23 @@
+# Test configuration for Restormer
+name: restormer
+model_type: Restormer
+num_gpu: 4
+
+# Dataset
+datasets:
+  test:
+    dataroot: /home/tjy/GoPro/raw
+    img_size: 128 #256
+
+# Network
+network_g:
+  in_channels: 1
+  out_channels: 1
+  dim: 48
+  num_blocks: [2, 3, 3, 4] #[4, 6, 6, 8]
+  num_heads: [2, 2, 2, 2] #[1, 2, 4, 8]
+
+# Paths
+path:
+  pretrain_network_g: experiments/restormer/models/net_g_100000.pth
+  results: results/restormer_test
