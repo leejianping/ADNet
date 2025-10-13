@@ -103,8 +103,7 @@ python test_lenet.py
 python ADNet.py
 ```
 =======
-coming soon
->>>>>>> d0fc36c44982ba987ed83e7afbc754f73e152510
+
 
 ## Contact
 If you have any question, please contact ljphit@163.com
@@ -113,4 +112,4 @@ If you have any question, please contact ljphit@163.com
 **Acknowledgment:** This code is based on the [Restormer](https://github.com/swz30/Restormer/tree/main) and [NAFNet](https://github.com/megvii-research/NAFNet/tree/main)
 =======
 **Acknowledgment:** This code is based on the [Restormer](https://github.com/swz30/Restormer/tree/main) and [NAFNet](https://github.com/megvii-research/NAFNet/tree/main)
->>>>>>> d0fc36c44982ba987ed83e7afbc754f73e152510
+
