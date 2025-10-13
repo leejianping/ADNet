@@ -66,7 +66,7 @@ torchrun --nproc_per_node=6 --nnodes=1 --node_rank=0 --master_port=4321 basicsr/
 
 ## 3 Evaluation
 
-<<<<<<< HEAD
+
 #### 3.1 Download the trained on GoPro only EG-Restormer model
 
 Download the pre-trained EG-Restormer [gopro_pretrain_model](https://drive.google.com/file/d/15fHBJy2MgMy2pcCKGYCzXpCHO_3Ja-O7/view?usp=sharing) and place it in `./experiment/egrestormer/models/`
@@ -102,14 +102,13 @@ python test_lenet.py
 ```
 python ADNet.py
 ```
-=======
+
 
 
 ## Contact
 If you have any question, please contact ljphit@163.com
 
-<<<<<<< HEAD
-**Acknowledgment:** This code is based on the [Restormer](https://github.com/swz30/Restormer/tree/main) and [NAFNet](https://github.com/megvii-research/NAFNet/tree/main)
-=======
-**Acknowledgment:** This code is based on the [Restormer](https://github.com/swz30/Restormer/tree/main) and [NAFNet](https://github.com/megvii-research/NAFNet/tree/main)
+Acknowledgment: This code is based on the [Restormer](https://github.com/swz30/Restormer/tree/main) and [NAFNet](https://github.com/megvii-research/NAFNet/tree/main)
+
+
 
