@@ -1,3 +1,5 @@
+# An Adaptive Edge-Guided Dual-Network Framework for Fast QR Code Motion Deblurring
+
 ## 1 Dataset Preparation
 
 ## 1.1 GoPro dataset
